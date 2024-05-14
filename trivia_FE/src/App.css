@@ -5,38 +5,45 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.brandImgContainer{
+  top: 231px;
+  left: 112px;
+  width: 206px;
+  height: 206px;
+  background: transparent url('./assets/img/ProfolePicture.jpg') 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* UI Properties */
+
+.playBtn{
+  /* Layout Properties */
+
+top: 452px;
+left: 76px;
+width: 278px;
+height: 55px;
+
+/* UI Properties */
+
+background: #B3B3B3 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
+.nameField{
+  /* Layout Properties */
 
-.card {
-  padding: 2em;
-}
+top: 417px;
+left: 77px;
+width: 54px;
+height: 27px;
 
-.read-the-docs {
-  color: #888;
+/* UI Properties */
+
+text-align: left;
+font: normal normal normal 20px/27px Segoe UI;
+letter-spacing: 0px;
+color: #EFEFEF;
+opacity: 1;
 }
