@@ -41,7 +41,7 @@ return (
 
       <Form className='formField d-flex flex-column'>
         <Form.Group className="mb-3 d-flex flex-column pt-4 w-100" controlId="formBasicEmail">
-          <Form.Label className='nameField pt-2 mb-1'>Your name</Form.Label>
+          <Form.Label className='nameField pt-2 mb-1 fs-2'>Your name</Form.Label>
           <Form.Control className='' type="email" placeholder="Type your name here" />
         </Form.Group>
         <Button ref={playBtnRef} id='playBtn' variant="primary" type="button">
@@ -51,28 +51,6 @@ return (
     </div>
   </div>
   </>
-  // <>
-
-  //   <div className='pageContainer'>
-  //     <div className='mainContainer'>
-  //       <div className='brandImgContainer'>
-  //         <img className='brandImg' src={profilePicture} alt="brand picture"/>
-  //       </div>
-  //       <Form className='d-flex flex-column'>
-  //         <Form.Group className="mb-3" controlId="formBasicEmail">
-  //           <Form.Label className='nameField'>Name</Form.Label>
-  //           <Form.Control className='' type="email" placeholder="Type your name here" />
-  //         </Form.Group>
-
-  //         <Button ref={playBtnRef} id='playBtn' variant="primary" type="button">
-  //           Play
-  //         </Button>
-  //       </Form>    
-  //       </div>
-  //     </div>
-
-   
-  //   </>
   )
 }
 
